@@ -5,4 +5,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install curl wget bash vim php -y
 RUN rm -rf /var/lib/apt/lists/*
 
 ADD ./ngrok /
-RUN  /ngrok config add-authtoken yourKey
+RUN  /ngrok config add-authtoken 2VSp5cJR7krUjRhjjI91uiYdcNs_5eLi2ohNu5fGkGtsykngj
